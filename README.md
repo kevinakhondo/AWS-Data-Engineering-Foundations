@@ -16,5 +16,15 @@ Everything a data engineer deploys: EC2, RDS, EMR, CDC Tools etc have to live wi
 In your AWS Console, search VPC and open the VPC Console.
 <img width="1536" height="491" alt="image" src="https://github.com/user-attachments/assets/321411e9-7143-4a12-9d0d-4fa25aeab24a" />
 
+On the VPC Console, click on Create VPC.
+<img width="1657" height="901" alt="image" src="https://github.com/user-attachments/assets/561439a8-330c-479d-a48e-5afef3df53bb" />
 
-  
+Ensure that you select VPC only.
+Then, configure the VPC as follows:
+| Setting   | Value                 |
+| --------- | -------------------   |
+| Name      | `data-platform-vpc-2` |
+| IPv4 CIDR | `10.0.0.0/16`         |
+| IPv6      | None                  |
+| Tenancy   | Default               |
+
