@@ -60,5 +60,7 @@ Configure it as follows:
 | CIDR    | `10.0.2.0/24`          |
 
 
+<img width="1680" height="834" alt="image" src="https://github.com/user-attachments/assets/aadb3bf8-6549-412d-aaa2-cfd9fdd82483" />
+
 
 
