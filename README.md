@@ -45,3 +45,20 @@ Under VPC, navigate to subnets.
 
 <img width="1680" height="433" alt="image" src="https://github.com/user-attachments/assets/b86f204b-8411-4bdf-805b-abc04dccce0c" />
 Start by attaching the VPC we created above.
+
+<img width="1680" height="834" alt="image" src="https://github.com/user-attachments/assets/6f7d020b-7907-49b5-a454-27dc680c30f7" />
+
+
+- Private Subnets: The procedure is the same as above but, what changes is the CIDR and name.
+Configure it as follows:
+
+| Setting | Value                  |
+| ------- | -------------------    |
+| Name    | `private-subnet-2`     |
+| VPC     | `data-platform-vpc-2`  |
+| AZ      | us-east-1c             |
+| CIDR    | `10.0.2.0/24`          |
+
+
+
+
