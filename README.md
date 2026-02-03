@@ -11,3 +11,7 @@ Everything a data engineer deploys: EC2, RDS, EMR, CDC Tools etc have to live wi
 - Private Subnet: This has no internet access, RDS lives here and has no IGW route.
 - Internet Gateway (IGW): This allows traffic between VPC and internet, it must be attached to a VPC,and it works only if route tables allow it. Therefore, No IGW = no internet access
 - Route Tables: They decide where traffic goes. For example, 0.0.0.0/0 → Internet Gateway means Any traffic not local → send to internet.
+
+### 1.2 Hands-On: Create A VPC
+
+  
