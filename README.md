@@ -72,8 +72,16 @@ After creation, Go to actions and attach VPC
 Ensure you select the VPC we created above.
 <img width="1680" height="349" alt="image" src="https://github.com/user-attachments/assets/337f90b0-8d2e-433b-897d-d530400d92f9" />
 
+#### Step 4: Create Route Table
+Navigate to Route tables and click on create route table.
+Name it as below and select the VPC created in this module.
+<img width="1680" height="607" alt="image" src="https://github.com/user-attachments/assets/b95a4f7e-a44a-4aac-aec9-834a6b2fe171" />
 
+The next step is to add internet route whose destination is IGW as follows:
+<img width="1680" height="607" alt="image" src="https://github.com/user-attachments/assets/af6b91f6-d236-40a1-a8ac-35f73e91ea02" />
 
+Ensure that you select the IGW created above.
+<img width="1680" height="607" alt="image" src="https://github.com/user-attachments/assets/fc93dea4-5dd5-4898-8182-2d032b333a72" />
 
 
 
