@@ -93,4 +93,10 @@ We have:
 
 - The network was ready for EC2, IAM, S3, and RDS
 
-
+## 2. IAM (Identity & Access Management)
+The goal is to securely control who can access AWS, what they can do, and how services interact — using users, groups, roles, and policies.
+The Key components include:
+- IAM Users: This represents human users and used for logging into aws console and CLI access from laptops. It has long-term credentials.
+- IAM Groups: This is considered the best practice. This is a collection of users. Policies are attached to it and there is easier management.
+- IAM Roles: These are used by AWS services. Services should always use roles and not users.
+- IAM Policies: These are JSON documents defining permissions and are attached to users, groups, or roles.
