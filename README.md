@@ -62,5 +62,19 @@ Configure it as follows:
 
 <img width="1680" height="834" alt="image" src="https://github.com/user-attachments/assets/aadb3bf8-6549-412d-aaa2-cfd9fdd82483" />
 
+#### Step 3: Create IGW
+On the VPC Console, navigate to Internet Gateways and click on it. 
+<img width="1680" height="232" alt="image" src="https://github.com/user-attachments/assets/d235a376-a080-4156-93fc-9886008fc929" />
+
+Click on create internet gateway and name it data-platform-2-igw.
+After creation, Go to actions and attach VPC
+<img width="1680" height="349" alt="image" src="https://github.com/user-attachments/assets/ff65e440-773f-4094-8213-0da28d1aa397" />
+Ensure you select the VPC we created above.
+<img width="1680" height="349" alt="image" src="https://github.com/user-attachments/assets/337f90b0-8d2e-433b-897d-d530400d92f9" />
+
+
+
+
+
 
 
