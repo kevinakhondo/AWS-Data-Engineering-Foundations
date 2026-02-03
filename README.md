@@ -13,5 +13,8 @@ Everything a data engineer deploys: EC2, RDS, EMR, CDC Tools etc have to live wi
 - Route Tables: They decide where traffic goes. For example, 0.0.0.0/0 → Internet Gateway means Any traffic not local → send to internet.
 
 ### 1.2 Hands-On: Create A VPC
+In your AWS Console, search VPC and open the VPC Console.
+<img width="1536" height="491" alt="image" src="https://github.com/user-attachments/assets/321411e9-7143-4a12-9d0d-4fa25aeab24a" />
+
 
   
