@@ -83,6 +83,14 @@ The next step is to add internet route whose destination is IGW as follows:
 Ensure that you select the IGW created above.
 <img width="1680" height="607" alt="image" src="https://github.com/user-attachments/assets/fc93dea4-5dd5-4898-8182-2d032b333a72" />
 
+## 1.3 Summary
+We have: 
+- Created a custom VPC
 
+- Configured a Public and private subnets.
+
+- Controlled Correctly Internet access
+
+- The network was ready for EC2, IAM, S3, and RDS
 
 
