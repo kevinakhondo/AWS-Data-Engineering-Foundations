@@ -31,4 +31,13 @@ Then, configure the VPC as follows:
 
 #### Step 2: Create Subnets
 Under VPC, navigate to subnets.
-- Public Subnet: 
+<img width="1680" height="270" alt="image" src="https://github.com/user-attachments/assets/576e9aae-1cf9-451c-b34b-43a452c796ce" />
+
+- Public Subnet: Configure it ass follows:
+  | Setting | Value               |
+| ------- | -------------------   |
+| Name    | `public-subnet-2`       |
+| VPC     | `data-platform-vpc-2` |
+| AZ      | us-east-1c            |
+| CIDR    | `10.0.1.0/24`         |
+
