@@ -42,3 +42,6 @@ Under VPC, navigate to subnets.
 | AZ        | us-east-1c            |
 | CIDR      | `10.0.1.0/24`         |
 
+
+<img width="1680" height="433" alt="image" src="https://github.com/user-attachments/assets/b86f204b-8411-4bdf-805b-abc04dccce0c" />
+Start by attaching the VPC we created above.
